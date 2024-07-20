@@ -20,5 +20,14 @@ Ensure you have Python and the required dependencies installed. You can install 
 
 pip install -r requirements.txt
 
-Download the pre-trained model and place it in the specified directory.
+Download the pre-![Screenshot 2024-07-20 174631 - Copy](https://github.com/user-attachments/assets/774b9d76-6dd0-4747-9396-c189aee3967c)
+trained model and place it in the specified directory.
 
+![Screenshot 2024-07-20 174648 - Copy](https://github.com/user-attachments/assets/4600ac0d-d2b7-4413-b6f4-8c47e717a118)
+
+![Screenshot 2024-07-20 224901 - Copy](https://github.com/user-attachments/assets/83e46f7b-22ac-4d17-9966-eb86c3fd2324)
+
+![Screenshot 2024-07-20 22491![Screenshot 2024-07-20 224924 - Copy](https://github.com/user-attachments/assets/1649d219-a7c0-4793-8e21-694abb0aeef7)
+4 - Copy](https://github.com/user-attachments/assets/f8fac37e-1e28-4428-92dc-9e530438c386)
+
+![Screenshot 2024-07-20 224933](https://github.com/user-attachments/assets/352fe2e8-2610-4009-b9ed-d35af1d8e6b5)
