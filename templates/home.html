@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+{% block pagetitle %}
+Plant Disease Detection
+{% endblock pagetitle %}
+{% block body %}
+<style>
+  body {
+    overflow-x: hidden;
+    background-color: #f0f8ff;
+  }
+  .note-header {
+    padding-top: 2%;
+    font-weight: 400;
+    color: red;
+  }
+  .note-text, .note-text-mobile {
+    font-weight: 500;
+    color: black;
+  }
+  .note-text-mobile {
+    display: none;
+  }
+  .mobile, .laptop {
+    display: none;
+  }
+  @media only screen and (max-width: 830px) {
+    .laptop {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
+    .note-text {
+      display: none;
+    }
+    .note-text-mobile {
+      display: block;
+    }
+  }
+  @media (min-width: 830px) {
+    .mobile {
+      display: none;
+    }
+    .laptop {
+      display: block;
+    }
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-white {
+    color: white;
+  }
+  .shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .rounded-lg {
+    border-radius: 0.75rem;
+  }
+  .bttn-pill {
+    border-radius: 50rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .bg-white {
+    background-color: white;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .col {
+    flex: 1;
+    padding: 15px;
+  }
+  .fruit-card {
+    width: 250px; /* Adjusted width for all cards */
+    height: 250px; /* Adjusted height for all cards */
+    overflow: hidden;
+    position: relative;
+  }
+
+  .fruit-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    border-radius: 12px; /* Adjust the border radius as needed */
+  }
+  .fruit-card:hover img {
+    transform: scale(1.1);
+  }
+  .fruit-card p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+</style>
+
+<div class='mobile p-5'>
+  <div class="row mb-5 text-center text-white">
+    <div class="col-lg-10 mx-auto">
+      <h1 class="display-4 note-header"><b>Note✍🏻</b></h1>
+      <p class="lead note-text-mobile">Please🙏 Open This Site On Laptop/PC 💻 Screen Only</p>
+      <p class="lead note-text-mobile">Thank You 🤝</p>
+    </div>
+  </div>
+</div>
+
+<div class="row mb-5 text-center text-white laptop">
+  <div class="col-lg-10 mx-auto">
+    <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color: rgb(4, 54, 4);"><b>Plant Disease Detection</b></h1>
+    <p class="lead" style="color: black;">This AI Engine Will Help To Detect Disease From Following Fruits And Veggies</p>
+  </div>
+</div>
+
+<center class="laptop">
+  <a href="/index">
+    <button class="bttn-pill bttn-lg btn-success"><b style="color: black;">AI Engine</b></button>
+  </a>
+</center>
+
+<div class="row p-5 laptop">
+  <div class="col">
+    <div class="p-3 bg-white shadow rounded-lg fruit-card">
+      <img src="https://post.healthline.com/wp-content/uploads/2020/09/Do_Apples_Affect_Diabetes_and_Blood_Sugar_Levels-732x549-thumbnail-1-732x549.jpg" width="250" height="200" alt="Apple">
+      <center><p class="lead">Apple</p></center>
+    </div>
+  </div>
+  <div class="col">
+    <div class="p-3 bg-white shadow rounded-lg fruit-card">
+      <img src="https://www.supermarketperimeter.com/ext/resources/0430-blueberries.png?t=1588260305&width=1080" width="250" height="250" alt="Blueberry">
+      <center><p class="lead">Blueberry</p></center>
+    </div>
+  </div>
+  <div class="col">
+    <div class="p-3 bg-white shadow rounded-lg fruit-card">
+      <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/slideshows/health_benefits_of_cherries_slideshow/1800x1200_health_benefits_of_cherries_slideshow.jpg" width="250" height="250" alt="Cherry">
+      <center><p class="lead">Cherry</p></center>
+    </div>
+  </div>
+  <div class="col">
+    <div class="p-3 bg-white shadow rounded-lg fruit-card">
+      <img src="https://www.agdaily.com/wp-content/uploads/2019/07/bg-corn-By-abamjiwa-al-hadi.jpg" width="250" height="250" alt="Corn">
+      <center><p class="lead">Corn</p></center>
+    </div>
+  </div>
+</div>
+
+{% endblock body %}

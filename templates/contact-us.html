@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% block pagetitle %}
+Contact Us
+{% endblock pagetitle %}
+
+{% block body %}
+
+<div class="container my-5">
+    <div class="row mb-5 text-center">
+        <div class="col-lg-10 mx-auto">
+            <h1 class="display-4" style="padding-top: 2%; font-weight: 700; color: #333;">
+                <b>Contact Us</b>
+            </h1>
+            <p class="lead" style="font-weight: 500; color: #666;">
+                For Any Queries & Suggestions Contact Us. We Are Happy To Help.
+            </p>
+        </div>
+    </div>
+
+    <div class="row p-3">
+        <div class="col-lg-6 mb-4">
+            <div class="p-5 bg-white shadow rounded-lg h-100 text-center">
+                <b><h2 style="font-family: 'Courier New', Courier, monospace;">A Chandra Kishan Singha</h2></b>
+                <p class="lead" style="font-weight: 300;">
+                    Hi, I am A Chandra Kishan Singha. Currently Pursuing Bachelors in Information Technology.
+                    My Main Focus is on Machine Learning, Deep Learning, and Artificial Intelligence.
+                    I am Also Interested in Software Development and Large Language Models.
+                </p>
+
+                <div class="d-flex justify-content-center mt-3">
+                    <a target="_blank" href="https://github.com/Chan2502" class="mx-2">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="44" width="44" class="icon" alt="GitHub">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/a-chandra-kishan-singha-b5461022a/" class="mx-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" height="38" width="38s" class="icon" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+            <div class="p-5 bg-white shadow rounded-lg h-100 text-center">
+                <h2 style="font-family: 'Courier New', Courier, monospace;">Mahima Yadav</h2>
+                <p class="lead" style="font-weight: 300;">
+                    Hi, I am Mahima Yadav. Currently pursuing Bachelors in Computer Science (Artificial Intelligence and Machine Learning). My Main Focus is on Machine Learning, Deep Learning, and Artificial Intelligence. I am Also Interested in Full Stack Development.
+                </p>
+
+                <div class="d-flex justify-content-center mt-3">
+                    <a target="_blank" href="https://github.com/mahima16yadav" class="mx-2">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="44" width="44" class="icon" alt="GitHub">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/mahima-yadav-ab8b7424b" class="mx-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" height="38" width="38" class="icon" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .h-100 {
+        height: 100%;
+    }
+    .icon {
+        transition: transform 0.3s ease-in-out;
+    }
+    .icon:hover {
+        transform: scale(1.1);
+    }
+    .p-5 {
+        padding: 3rem !important;
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
+    @media (max-width: 992px) {
+        .p-5 {
+            padding: 2rem !important;
+        }
+        .lead {
+            font-size: 1rem;
+        }
+    }
+</style>
+
+{% endblock body %}
