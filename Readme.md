@@ -31,3 +31,5 @@ trained model and place it in the specified directory.
 4 - Copy](https://github.com/user-attachments/assets/f8fac37e-1e28-4428-92dc-9e530438c386)
 
 ![Screenshot 2024-07-20 224933](https://github.com/user-attachments/assets/352fe2e8-2610-4009-b9ed-d35af1d8e6b5)
+ Download the model from here 
+https://drive.google.com/file/d/13zFUvNEMK7lvXFH9bXwHOrAcmmvTf8hQ/view?usp=sharing
