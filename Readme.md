@@ -1,18 +1,24 @@
-# 🌟Make Sure You Read all Instructions :
+⭐AGRO-CARE: Plant Disease Detection System
+Plant disease detection is crucial for every farmer, so we have created a plant disease detection system using deep learning. We use a Convolutional Neural Network (CNN) for classifying leaf images into 39 different categories. The CNN model is built using the PyTorch framework. For training, we utilize the Plant Village dataset. You can find the dataset link in the Blog section of our repository. AGRO-CARE is an advanced plant disease detection system with a user-friendly interface. It allows users to upload pictures of diseased leaves, detects the disease, provides information on curing the disease, suggests supplements, and offers an option to buy the supplements.
 
-##### This code is fully funcional web app which is already deployed in heroku cloud server
+Features
+Disease Detection: Upload a picture of diseased leaves and the system will identify the disease.
+Cure Information: Get detailed information on how to cure the detected disease.
+Supplement Suggestions: Receive suggestions for supplements that can help in curing the disease.
+E-commerce Integration: Purchase the recommended supplements directly through the platform.
+Testing Images
+If you do not have leaf images, you can use test images located in the test_images folder.
+Each image has its disease name, so you can verify if the model is working correctly.
+Installation
+Clone the repository:
 
-##### You have install requirements.txt for run this code in your pc
+git clone https://github.com/mahima16yadav/agro-care.git
 
-##### For heroku we also have to create on Procfile
+cd agro-care
 
-##### Your "plant_disease_model_1_latest.pt" should be in this folder. You have to trained that model in your pc/laptop and drag it to this folder
+Ensure you have Python and the required dependencies installed. You can install the dependencies using:
 
-##### First check the Model section of this Repo. After that you can understand deployed app.
+pip install -r requirements.txt
 
-##### Make sure if you change the model name then also change the name of the model argument in the app.py
+Download the pre-trained model and place it in the specified directory.
 
-
-# ⭐Requirements 
-#### You have to Installed all the requirments. Save all the below requirements in requirements.txt
-#### Run this line in cmd/shell :  pip install -r requirements.txt
