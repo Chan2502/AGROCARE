@@ -12,7 +12,7 @@ Each image has its disease name, so you can verify if the model is working corre
 Installation
 Clone the repository:
 
-git clone https://github.com/mahima16yadav/agro-care.git
+git clone https://github.com/Chan2502/AGROCARE.git
 
 cd agro-care
 
